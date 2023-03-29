@@ -11,6 +11,13 @@ const server = http.createServer((request, response) => {
             })
             break;
         }
+        case '/about': {
+            setTimeout(() => {
+                response.write('ABOUT COURSE')
+                response.end()
+            }, 3000)
+            break;
+        }
         default: {
             response.write('404 not found')
             response.end()
