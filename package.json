@@ -1,0 +1,14 @@
+{
+  "name": "lesson-03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Irek-91/the-way-of-the-samurai.git",
+  "author": "Irek-91 <shamilov.irek@bk.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
