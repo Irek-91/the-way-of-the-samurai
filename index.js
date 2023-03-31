@@ -3,11 +3,20 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  const a = 4;
+  if (a > 5) {
+    res.send('OK')
+  } else {
+    res.send('Hello World!')
+  }
 })
 
 app.get('/samurais', (req, res) => {
-    res.send('Hello samurais!!!!')
+    res.send('Hello samurai, Irek')
+  })
+
+app.get('/samurais/user', (req, res) => {
+    res.send('Hello samurai user, Irek')
   })
 
 app.post('/samurais', (req, res) => {
